@@ -11,6 +11,6 @@
 
 ## Demo
 
-[Click me ! ! ! ! Try this app](moneyspend.netlify.app)
+[Click me ! ! ! ! Try this app](https://moneyspend.netlify.app)
 
 ![](screen.gif)
