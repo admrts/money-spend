@@ -3,7 +3,7 @@ import products from "../products";
 
 const initialState = {
   productsItem: products,
-  money: 10,
+  money: 1000000,
   basket: [],
   totalPrice: 0,
 };

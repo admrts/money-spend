@@ -24,11 +24,14 @@ function Product({ product }) {
   const checkBasket = basket.find((item) => item.id === product.id);
 
   return (
-    <Grid mx={6}>
+    <Grid mx={3}>
       <Card>
-        <CardMedia sx={{ height: 140 }} image={product.image} />
+        <CardMedia
+          sx={{ height: 150, padding: "30px" }}
+          image={product.image}
+        />
         <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
+          <Typography gutterBottom variant="h6" component="div">
             {product.title}
           </Typography>
           <Typography variant="body2" color="text.secondary">

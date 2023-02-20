@@ -11,7 +11,16 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Grid container className="center">
+      <Grid
+        container
+        sx={{
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          marginTop: "20px",
+          gap: "10px",
+        }}
+      >
         {productsItem.map((product) => {
           return <Product key={product.id} product={product} />;
         })}
